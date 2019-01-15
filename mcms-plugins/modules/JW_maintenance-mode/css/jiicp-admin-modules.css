@@ -1,0 +1,137 @@
+/*
+ * MaintenanceModePage
+ * Backend CSS - module deactivation survey
+ * (c) WebFactory Ltd, 2015 - 2018
+ */
+
+.ui-widget-overlay {
+  opacity: 0.85;
+}
+
+.jiicp-survey-dialog .ui-dialog-titlebar {
+  text-align: center;
+  font-weight: bold;
+}
+
+.jiicp-survey-dialog .ui-dialog-content {
+  padding: 20px 25px;
+  font-size: 15px;
+}
+
+.jiicp-survey-dialog b {
+  font-weight: bold;
+}
+
+.jiicp-survey-dialog .footer {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.jiicp-survey-dialog .footer #emailme {
+  margin: 0 5px -3px 0;
+}
+
+.jiicp-survey-dialog .footer .button {
+  border-radius: 0;
+  font-size: 15px;
+  box-shadow: none;
+  text-shadow: none;
+  margin-top: 5px;
+}
+
+.jiicp-survey-dialog .footer .dismiss-survey {
+  padding-top: 25px;
+  display: block;
+}
+
+.jiicp-survey-dialog .ui-dialog-content p {
+  margin: 0 0 20px 0;
+  font-size: 15px;
+}
+
+.jiicp-survey-dialog .question-wrapper {
+  border: 2px solid rgba(0,0,0,0.2);
+  padding: 15px 10px;
+  background-color: rgba(250,250,250,0.55);
+  margin-bottom: 5px;
+  opacity: 0.75;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.question-wrapper-assistance {
+  border: 2px solid rgba(0, 142, 194, 1);
+  padding: 15px 10px;
+  background-color: rgba(250,250,250,0.55);
+  margin-bottom: 5px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.question-wrapper-assistance .button {
+  margin-top: 10px;
+}
+
+.jiicp-survey-dialog .question-wrapper .details {
+  display: none;
+}
+
+.jiicp-survey-dialog .question-wrapper:hover {
+  opacity: 1;
+  border: 2px solid rgba(0, 142, 194, 1);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.jiicp-survey-dialog .question-wrapper.selected {
+  opacity: 1;
+  border: 2px solid rgba(0, 142, 194, 1);
+  font-weight: 500;
+}
+
+.jiicp-survey-dialog .question-wrapper.selected .details {
+  display: block;
+  font-weight: 400;
+}
+
+.jiicp-survey-dialog .question-wrapper b {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.jiicp-survey-dialog .question-wrapper .dashicons.big {
+  color: rgba(0, 0, 0, 1);
+  display: inline;
+  height: 61px;
+  font-size: 61px;
+  margin-bottom: 10px;
+}
+
+.jiicp-survey-dialog .question-wrapper img {
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.jiicp-survey-dialog .question-wrapper .question {
+  display: inline-block;
+  width: 100%;
+}
+
+.jiicp-survey-dialog .question-wrapper i {
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.jiicp-logo {
+  font-variant: small-caps;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+}
+
+.textcenter {
+  text-align: center;
+}

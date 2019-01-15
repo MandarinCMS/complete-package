@@ -1,0 +1,132 @@
+/* Teaser Grid
+---------------------------------------------------------- */
+.mcmsb_column .mcmsb_wrapper .mcmsb_teaser_grid {
+  float: none;
+}
+
+// Teaser grid adjustments
+body ul.mcmsb_thumbnails-fluid li {
+  background-image: none; /* some myskins add bg image as a bullet */
+  padding: 0;
+  margin-left: 0;
+  //
+  .no_bullet_fix();
+
+  .entry-content *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.mcmsb_row .mcmsb_grid ul.mcmsb_thumbnails-fluid,
+.mcmsb_row .mcmsb_filtered_grid ul.mcmsb_thumbnails-fluid {
+  padding: 0;
+  overflow: visible !important;
+}
+
+/* Teaser grid
+---------------------------------------------------------- */
+.mcmsb_teaser_grid .entry-content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.grid_layout-thumbnail .post-thumb {
+  margin-bottom: 0;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+/* Carousel layout
+---------------------------------------------------------- */
+.mcmsb_carousel {
+  .mcmsb_wrapper {
+    position: relative;
+  }
+  .prev,
+  .next {
+    position: absolute;
+    top: 3px;
+    background-color: @vc_carousel_arrows_bg;
+    padding: 0px 6px 0px 6px;
+    font-size: 12px;
+    z-index: 10;
+    text-decoration: none;
+
+    .mcmsb_transition();
+
+    &:hover {
+      background-color: @vc_carousel_arrows_bg_hover;
+    }
+    &:focus {
+      outline: none;
+      text-decoration: none;
+    }
+  }
+  .prev {
+    right: 30px;
+  }
+  .next {
+    right: 0px;
+  }
+
+  .mcmsb_thumbnails-fluid {
+    width: 100%;
+
+    > [class*="vc_span"] {
+      height: auto !important;
+    }
+  }
+}
+
+/*** Categories filter ***/
+.mcmsb_teaser_grid .categories_filter,
+.mcmsb_categories_filter {
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+
+  li {
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    //
+    .no_bullet_fix();
+
+    a {
+      border: none;
+      text-decoration: none;
+
+      &:hover {
+        border-bottom: 1px dotted;
+      }
+    }
+
+    &.active a {
+      border-bottom: 1px dotted;
+    }
+  }
+}
+
+// Responsive stuff
+@media (max-width: @vc_responsive_max_w) {
+  //767
+  .vc_responsive {
+    .mcmsb_row {
+      ul.mcmsb_thumbnails-fluid {
+        margin-left: 0;
+        width: auto;
+      }
+      .mcmsb_teaser_grid ul.mcmsb_thumbnails-fluid [class*="vc_col-"] {
+        width: 100%;
+        float: none;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}

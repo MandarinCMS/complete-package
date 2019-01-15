@@ -1,0 +1,96 @@
+/*!******************************************************************************
+ * Copyright (c) 2017, MCMS BaloonUp Maker
+ ******************************************************************************/
+
+.wrap-licenses {
+  .form-table,
+  thead,
+  tbody,
+  tfoot,
+  tr,
+  td,
+  th,
+  caption {
+    display: block;
+  }
+  .form-table tr {
+    float: left;
+    margin: 0 15px 15px 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 30.5%;
+    max-width: 350px;
+    padding: 14px;
+    min-height: 220px;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .form-table th {
+    background: #f9f9f9;
+    padding: 14px;
+    border-bottom: 1px solid #ccc;
+    margin: -14px -14px 20px;
+    width: 100%;
+  }
+  .form-table td {
+    padding: 0;
+  }
+  td input.regular-text {
+    margin: 0 0 8px;
+    width: 100%;
+  }
+  .balooncreate-license-data[class*="balooncreate-license-"] {
+    position: absolute;
+    background: #fafafa;
+    padding: 14px;
+    border-top: 1px solid #eee;
+    margin: 20px -14px -14px;
+    min-height: 67px;
+    width: 100%;
+    bottom: 14px;
+    box-sizing: border-box;
+  }
+  .balooncreate-license-data[class*="balooncreate-license-"] a {
+    color: #444;
+  }
+  .balooncreate-license-data[class*="balooncreate-license-"] a:hover {
+    text-decoration: none;
+  }
+  .balooncreate-license-data.license-expires-soon-notice {
+    background-color: #00a0d2;
+    color: #fff;
+    border-color: #00a0d2;
+  }
+  .balooncreate-license-data.balooncreate-license-valid {
+
+  }
+  .balooncreate-license-data.balooncreate-license-expired {
+    background-color: #e24e4e;
+    color: #fff;
+    border-color: #e24e4e;
+  }
+  .balooncreate-license-data.balooncreate-license-error,
+  .balooncreate-license-data.balooncreate-license-missing,
+  .balooncreate-license-data.balooncreate-license-invalid,
+  .balooncreate-license-data.balooncreate-license-site_inactive,
+  .balooncreate-license-data.balooncreate-license-item_name_mismatch {
+    background-color: #ffebcd;
+    border-color: #ffebcd;
+  }
+  .balooncreate-license-data p {
+    font-size: 13px;
+    margin-top: 0;
+  }
+  .balooncreate-license-data.license-expires-soon-notice a,
+  .balooncreate-license-data.balooncreate-license-expired a {
+    color: #fff;
+  }
+  .balooncreate-license-data.license-expires-soon-notice a:hover,
+  .balooncreate-license-data.balooncreate-license-expired a:hover {
+    text-decoration: none;
+  }
+  p.submit {
+    clear: both;
+  }
+
+}

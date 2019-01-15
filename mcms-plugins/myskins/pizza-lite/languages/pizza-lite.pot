@@ -1,0 +1,442 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Pizza Lite\n"
+"POT-Creation-Date: 2018-07-19 18:13+0530\n"
+"PO-Revision-Date: 2018-07-04 16:28+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-MCMSHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:13
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Looks like you have taken a wrong turn.....Dont worry... it happens to the "
+"best of us."
+msgstr ""
+
+#: archive.php:31 front-page.php:162 front-page.php:197
+msgid "Back"
+msgstr ""
+
+#: archive.php:32 front-page.php:163 front-page.php:198
+msgid "Next"
+msgstr ""
+
+#: archive.php:33
+msgid "Posts navigation"
+msgstr ""
+
+#: category.php:17
+msgid "Category: "
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: content-single.php:22 image.php:49 page.php:23 template-fullwide.php:17
+msgid "Pages:"
+msgstr ""
+
+#: content-single.php:26 page.php:27 template-fullwide.php:21
+msgid "Page"
+msgstr ""
+
+#: content.php:17
+msgid ", "
+msgstr ""
+
+#: content.php:24
+msgid "Read More &rarr;"
+msgstr ""
+
+#: content.php:28
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: customize-pro/example-1/class-customize.php:76
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: customize-pro/example-1/class-customize.php:77
+msgid "Upgrade Now"
+msgstr ""
+
+#: footer.php:26
+msgid "facebook"
+msgstr ""
+
+#: footer.php:30
+msgid "twitter"
+msgstr ""
+
+#: footer.php:34
+msgid "google-plus"
+msgstr ""
+
+#: footer.php:38
+msgid "linkedin"
+msgstr ""
+
+#: front-page.php:67 front-page.php:94
+msgid "Read More"
+msgstr ""
+
+#: functions.php:37
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:48
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:49
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:64
+msgctxt "Roboto Condensed:on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:69
+msgctxt "Scada:on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:70
+msgctxt "Lato:on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:71
+msgctxt "Roboto:on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:72
+msgctxt "Great Vibes:on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:73
+msgctxt "Open Sans:on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:74
+msgctxt "Assistant:on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:75
+msgctxt "Pattaya:on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:31
+msgid "Free Delivery:"
+msgstr ""
+
+#: header.php:53
+msgid "Menu"
+msgstr ""
+
+#: image.php:18
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:27 image.php:54 inc/template-tags.php:56
+msgid "Edit"
+msgstr ""
+
+#: image.php:31
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:32
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/about-myskins.php:5
+msgid "About MySkin"
+msgstr ""
+
+#: inc/about-myskins.php:15
+msgid "MySkin Information"
+msgstr ""
+
+#: inc/about-myskins.php:17
+msgid ""
+"Pizza Lite is suitable for pizza home delivery, online ordering, eCommerce, "
+"eatery, fast food, restaurant, bistro, cafe, coffee shop, bar, pub, diner, "
+"joint, outlet, dining room, cafeteria, food, recipe, chef, grill, hideaway, "
+"eating place, caterers, hotdog, takeaway, night club and other types of "
+"websites which are for local and small business and need responsive site "
+"which is multilingual module compatible like MCMSML, qTranslate X and "
+"Polylang and also is page builder friendly with elementor, divi, visual "
+"composer, beaver builder, live composer and others. WooCommerce compatible "
+"and can be used to book a table and book food online as well."
+msgstr ""
+
+#: inc/about-myskins.php:23
+msgid "Live Demo"
+msgstr ""
+
+#: inc/about-myskins.php:24
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/about-myskins.php:25
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "More color options in PRO Version"
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid ""
+"Featured Image Size Should be ( 1420 X 549 ) More slider settings available "
+"in PRO Version"
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "Select page for slide one:"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Select page for slide two:"
+msgstr ""
+
+#: inc/customizer.php:110
+msgid "Select page for slide three:"
+msgstr ""
+
+#: inc/customizer.php:120
+msgid "Uncheck To Show Slider"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Home Section One Box"
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "Select Page from the dropdown for section"
+msgstr ""
+
+#: inc/customizer.php:147 inc/customizer.php:189
+msgid "Uncheck To Show This Section"
+msgstr ""
+
+#: inc/customizer.php:153
+msgid "Home Section Two Three Boxes"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Select Pages from the dropdown for homepage three boxes section"
+msgstr ""
+
+#: inc/customizer.php:194
+msgid "Social Settings"
+msgstr ""
+
+#: inc/customizer.php:195
+msgid "More social icon available in PRO Version"
+msgstr ""
+
+#: inc/customizer.php:203
+msgid "Add facebook link here"
+msgstr ""
+
+#: inc/customizer.php:212
+msgid "Add twitter link here"
+msgstr ""
+
+#: inc/customizer.php:221
+msgid "Add google plus link here"
+msgstr ""
+
+#: inc/customizer.php:230
+msgid "Add linkedin link here"
+msgstr ""
+
+#: inc/customizer.php:235
+msgid "Contact Details"
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Add you contact details here"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "Add contact address here"
+msgstr ""
+
+#: inc/customizer.php:254
+msgid "Add contact number here."
+msgstr ""
+
+#: inc/template-tags.php:28
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:30
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: inc/template-tags.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:37
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:75
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:162
+msgctxt "Used before publish date."
+msgid "<span class=\"screen-reader-text\">Posted on</span>"
+msgstr ""
+
+#: no-results.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %s: publish post started
+#: no-results.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: search term
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:10
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:10
+msgid "Category"
+msgstr ""
+
+#: sidebar.php:16
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:22
+msgid "Meta"
+msgstr ""
+
+#. MySkin Name of the module/myskin
+msgid "Pizza Lite"
+msgstr ""
+
+#. MySkin URI of the module/myskin
+msgid "https://www.sktmyskins.net/shop/free-pizza-mandarincms-myskin/"
+msgstr ""
+
+#. Description of the module/myskin
+msgid ""
+"Pizza Lite is suitable for pizza home delivery, online ordering, eCommerce, "
+"eatery, fast food, restaurant, bistro, cafe, coffee shop, bar, pub, diner, "
+"joint, outlet, dining room, cafeteria, food, recipe, chef, grill, hideaway, "
+"eating place, caterers, hotdog, takeaway, night club and other types of "
+"websites which are for local and small business and need responsive site "
+"which is multilingual module compatible like MCMSML, qTranslate X and "
+"Polylang and also is page builder friendly with elementor, divi, visual "
+"composer, beaver builder, live composer and others. WooCommerce compatible "
+"and can be used to book a table and book food online as well. Demo: https://"
+"www.sktperfectdemo.com/demos/pizzaordering/"
+msgstr ""
+
+#. Author of the module/myskin
+msgid "SKT MySkins"
+msgstr ""
+
+#. Author URI of the module/myskin
+msgid "https://www.sktmyskins.net"
+msgstr ""

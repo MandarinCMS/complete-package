@@ -1,0 +1,213 @@
+.gardenlogin-review-notice{
+  padding: 15px 15px 15px 0;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 20px 20px 0 0;
+  border-left: 4px solid transparent;
+}
+.gardenlogin-review-notice:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.gardenlogin-review-thumbnail{
+  width: 114px;
+  float: left;
+  line-height: 80px;
+  text-align: center;
+  border-right: 4px solid transparent;
+}
+.gardenlogin-review-thumbnail img{
+  width: 68px;
+  vertical-align: middle;
+}
+.gardenlogin-review-text{
+  overflow: hidden;
+}
+.gardenlogin-review-text h3{
+  font-size: 24px;
+  margin: 0 0 5px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.gardenlogin-review-text p{
+  font-size: 13px;
+  margin: 0 0 5px;
+}
+.gardenlogin-review-ul{
+  margin: 0;
+  padding: 0;
+}
+.gardenlogin-review-ul li{
+  display: inline-block;
+  margin-right: 15px;
+}
+.gardenlogin-review-ul li a{
+  display: inline-block;
+  color: #10738B;
+  text-decoration: none;
+  padding-left: 26px;
+  position: relative;
+}
+.gardenlogin-review-ul li a span{
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+.gardenlogin-dasboard-pro-link{
+  color: #0cbb0c;
+}
+
+/* GardenLogin Add-ons CSS @since 1.1.3 */
+
+.gardenlogin-alert-notice{
+  background: #fff;
+  margin: 20px 20px 0 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  clear: both;
+}
+.gardenlogin-alert-notice>*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gardenlogin-alert-notice:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.gardenlogin-alert-thumbnail{
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+.gardenlogin-alert-thumbnail img{
+  width: 250px;
+  vertical-align: middle;
+}
+.gardenlogin-alert-text{
+  padding: 16px 80px 16px 80px;
+  overflow: hidden;
+  background: #1a5fa4;
+  position: relative;
+  flex: 1;
+}
+.gardenlogin-addon-notice-link:focus{
+  outline: none;
+  box-shadow: none;
+}
+.gardenlogin-alert-text:after{
+  width: 80px;
+  height: 100%;
+  background: #fff;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -40px;
+  transform: skewX(-20deg);
+  z-index: 1;
+}
+.gardenlogin-alert-text:before{
+  width: 80px;
+  height: 100%;
+  background: #fff;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -40px;
+  transform: skewX(-20deg);
+  z-index: 1;
+}
+.gardenlogin-alert-text h3{
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 10px;
+  color: #fff;
+}
+.gardenlogin-alert-text p{
+  font-size: 16px;
+  margin: 0;
+  color: #fff;
+}
+.gardenlogin-alert-button-section{
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+.gardenlogin-alert-button{
+  height: auto;
+  padding: 0;
+  color: #1a5fa4;
+  border: 0;
+  border-radius: 5px;
+  background: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.gardenlogin-alert-button:focus{
+  outline: none;
+  box-shadow: none;
+}
+.mcms-core-ui .gardenlogin-alert-notice.notice.is-dismissible{
+  padding: 0px;
+  border-left: 0px;
+}
+.gardenlogin-alert-notice .notice-dismiss{
+  text-decoration: none;
+  z-index: 1;
+}
+.gardenlogin-addon-notice-link{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  text-decoration: none;
+}
+@media screen and (max-width: 1300px) {
+  .gardenlogin-alert-thumbnail{
+    width: 200px;
+  }
+  .gardenlogin-alert-thumbnail img{
+    width: 170px;
+  }
+  .gardenlogin-alert-button-section{
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .gardenlogin-alert-thumbnail{
+    display: none;
+  }
+  .gardenlogin-alert-thumbnail img{
+    width: 150px;
+  }
+  .gardenlogin-alert-text{
+    padding-left: 30px;
+  }
+  .gardenlogin-alert-text:before,.gardenlogin-alert-text:after{
+    display: none;
+  }
+}
+@media screen and (max-width: 782px) {
+  .gardenlogin-alert-text{
+    padding-right: 40px;
+    padding-bottom: 50px;
+  }
+  .gardenlogin-alert-button-section{
+    width: auto;
+    text-align: left;
+  }
+  .gardenlogin-alert-button-section{
+    position: absolute;
+    bottom: 20px;
+    left: 33px;
+  }
+  .gardenlogin-alert-button{
+    color: #fff;
+  }
+  .gardenlogin-alert-notice .notice-dismiss:before{
+    color: #fff;
+  }
+}

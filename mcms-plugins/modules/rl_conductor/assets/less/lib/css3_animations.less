@@ -1,0 +1,258 @@
+/* CSS Animations */
+.mcmsb_animate_when_almost_visible {
+  .opacity(0);
+}
+
+.mcmsb_animate_when_almost_visible:not(.mcmsb_start_animation) {
+  .animation(none)
+}
+
+.mcmsb_top-to-bottom, .top-to-bottom {
+  .animation(mcmsb_ttb 0.7s 1 cubic-bezier(0.175, 0.885, 0.320, 1.275));
+}
+
+.mcmsb_bottom-to-top, .bottom-to-top {
+  .animation(mcmsb_btt 0.7s 1 cubic-bezier(0.175, 0.885, 0.320, 1.275));
+}
+
+.mcmsb_left-to-right, .left-to-right {
+  .animation(mcmsb_ltr 0.7s 1 cubic-bezier(0.175, 0.885, 0.320, 1.275));
+}
+
+.mcmsb_right-to-left, .right-to-left {
+  .animation(mcmsb_rtl 0.7s 1 cubic-bezier(0.175, 0.885, 0.320, 1.275));
+}
+
+.mcmsb_appear, .appear {
+  .animation(mcmsb_appear 0.7s 1 cubic-bezier(0.175, 0.885, 0.320, 1.275));
+  .scale(1);
+}
+
+.mcmsb_start_animation {
+  .opacity(1);
+}
+
+/* Top to bottom keyframes */
+@-webkit-keyframes mcmsb_ttb {
+  0% {
+    -webkit-transform: translate(0, -10%);
+    .opacity(0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@-moz-keyframes mcmsb_ttb {
+  0% {
+    -moz-transform: translate(0, -10%);
+    .opacity(0);
+  }
+  100% {
+    -moz-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@-o-keyframes mcmsb_ttb {
+  0% {
+    -o-transform: translate(0, -10%);
+    .opacity(0);
+  }
+  100% {
+    -o-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@keyframes mcmsb_ttb {
+  0% {
+    .translate(0, -10%);
+    .opacity(0);
+  }
+  100% {
+    .translate(0, 0);
+    .opacity(1);
+  }
+}
+
+/* Bottom to top keyframes */
+@-webkit-keyframes mcmsb_btt {
+  0% {
+    -webkit-transform: translate(0, 10%);
+    .opacity(0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@-moz-keyframes mcmsb_btt {
+  0% {
+    -moz-transform: translate(0, 10%);
+    .opacity(0);
+  }
+  100% {
+    -moz-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@-o-keyframes mcmsb_btt {
+  0% {
+    -o-transform: translate(0, 10%);
+    .opacity(0);
+  }
+  100% {
+    -o-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@keyframes mcmsb_btt {
+  0% {
+    .translate(0, 10%);
+    .opacity(0);
+  }
+  100% {
+    .translate(0, 0);
+    .opacity(1);
+  }
+}
+
+/* Left to right keyframes */
+@-webkit-keyframes mcmsb_ltr {
+  0% {
+    -webkit-transform: translate(-10%, 0);
+    .opacity(0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@-moz-keyframes mcmsb_ltr {
+  0% {
+    -moz-transform: translate(-10%, 0);
+    .opacity(0);
+  }
+  100% {
+    -moz-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@-o-keyframes mcmsb_ltr {
+  0% {
+    -o-transform: translate(-10%, 0);
+    .opacity(0);
+  }
+  100% {
+    -o-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@keyframes mcmsb_ltr {
+  0% {
+    .translate(-10%, 0);
+    .opacity(0);
+  }
+  100% {
+    .translate(0, 0);
+    .opacity(1);
+  }
+}
+
+/* Right to left keyframes */
+@-webkit-keyframes mcmsb_rtl {
+  0% {
+    -webkit-transform: translate(10%, 0);
+    .opacity(0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@-moz-keyframes mcmsb_rtl {
+  0% {
+    -moz-transform: translate(10%, 0);
+    .opacity(0);
+  }
+  100% {
+    -moz-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@-o-keyframes mcmsb_rtl {
+  0% {
+    -o-transform: translate(10%, 0);
+    .opacity(0);
+  }
+  100% {
+    -o-transform: translate(0, 0);
+    .opacity(1);
+  }
+}
+
+@keyframes mcmsb_rtl {
+  0% {
+    .translate(10%, 0);
+    .opacity(0);
+  }
+  100% {
+    .translate(0, 0);
+    .opacity(1);
+  }
+}
+
+/* Appear from center keyframes */
+@-webkit-keyframes mcmsb_appear {
+  0% {
+    -webkit-transform: scale(0.5);
+    .opacity(0.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    .opacity(1);
+  }
+}
+
+@-moz-keyframes mcmsb_appear {
+  0% {
+    -moz-transform: scale(0.5);
+    .opacity(0.1);
+  }
+  100% {
+    -moz-transform: scale(1);
+    .opacity(1);
+  }
+}
+
+@-o-keyframes mcmsb_appear {
+  0% {
+    -o-transform: scale(0.5);
+    .opacity(0.1);
+  }
+  100% {
+    -o-transform: scale(1);
+    .opacity(1);
+  }
+}
+
+@keyframes mcmsb_appear {
+  0% {
+    .scale(0.5);
+    .opacity(0.1);
+  }
+  100% {
+    .scale(1);
+    .opacity(1);
+  }
+}

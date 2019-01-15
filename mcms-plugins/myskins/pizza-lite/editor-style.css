@@ -1,0 +1,8 @@
+body#tinymce.mcms-editor { 
+    font-family: 'Roboto',Arial; 
+    margin: 10px; 
+}
+
+body#tinymce.mcms-editor a {
+    color: #5E5340;
+}

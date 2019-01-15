@@ -1,0 +1,38 @@
+/*!******************************************************************************
+ * Copyright (c) 2017, MCMS BaloonUp Maker
+ ******************************************************************************/
+
+$module_prefix: 'module' !default;
+$custom_select2_selector: 'select2' !default;
+
+/**
+ * Triggers field
+ */
+.#{$module_prefix}-field-triggers {
+  .#{$module_prefix}-baloonup-trigger-editor {
+    @include add-more-table-lists();
+  }
+}
+
+/**
+ * Cookies field
+ */
+.#{$module_prefix}-field-cookies {
+  .#{$module_prefix}-baloonup-cookie-editor {
+    @include add-more-table-lists();
+  }
+}
+
+.#{$module_prefix}-field-cookie_key {
+  .cookie-key {
+    position: relative;
+    display: inline-block;
+    button.reset {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+    }
+  }
+}

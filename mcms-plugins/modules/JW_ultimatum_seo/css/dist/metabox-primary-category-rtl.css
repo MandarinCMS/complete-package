@@ -1,0 +1,47 @@
+.mcmsseo-primary-term > label,
+.mcmsseo-is-primary-term {
+	font-weight: bold;
+}
+
+.mcmsseo-primary-term > .mcmsseo-make-primary-term,
+.mcmsseo-term-unchecked > .mcmsseo-make-primary-term {
+	display: none;
+}
+
+.mcmsseo-non-primary-term > .mcmsseo-is-primary-term,
+.mcmsseo-term-unchecked > .mcmsseo-is-primary-term {
+	display: none;
+}
+
+.mcmsseo-make-primary-term,
+.mcmsseo-is-primary-term {
+	float: left;
+}
+
+.mcmsseo-primary-term:before,
+.mcmsseo-primary-term:after,
+.mcmsseo-non-primary-term:before,
+.mcmsseo-non-primary-term:after {
+	display: table;
+	content: "";
+}
+
+.mcmsseo-primary-term:after,
+.mcmsseo-non-primary-term:after {
+	clear: both;
+}
+
+/* It is a button, style it like a link */
+.mcmsseo-make-primary-term {
+	margin: 4px 0 0 0;
+	padding: 0;
+	border: none;
+	color: #0073aa;
+	background: none;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.mcmsseo-make-primary-term:hover {
+	color: #00a0d2;
+}

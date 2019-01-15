@@ -1,0 +1,1141 @@
+#mcmsadminbar * {
+	height: auto;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	position: static;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: normal;
+	font-size: 13px;
+	font-weight: 400;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	line-height: 32px;
+	border-radius: 0;
+	box-sizing: content-box;
+	transition: none;
+	-webkit-font-smoothing: subpixel-antialiased; /* Prevent Safari from switching to standard antialiasing on hover */
+	-moz-osx-font-smoothing: auto; /* Prevent Firefox from inheriting from myskins that use other values */
+}
+
+.rtl #mcmsadminbar * {
+	font-family: Tahoma, sans-serif;
+}
+
+html:lang(he-il) .rtl #mcmsadminbar *  {
+ 	font-family: Arial, sans-serif;
+}
+
+#mcmsadminbar .ab-empty-item {
+	cursor: default;
+}
+
+#mcmsadminbar .ab-empty-item,
+#mcmsadminbar a.ab-item,
+#mcmsadminbar > #mcms-toolbar span.ab-label,
+#mcmsadminbar > #mcms-toolbar span.noticon {
+	color: #eee;
+}
+
+#mcmsadminbar #mcms-admin-bar-site-name a.ab-item,
+#mcmsadminbar #mcms-admin-bar-my-sites a.ab-item {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#mcmsadminbar ul li:before,
+#mcmsadminbar ul li:after {
+	content: normal;
+}
+
+#mcmsadminbar a,
+#mcmsadminbar a:hover,
+#mcmsadminbar a img,
+#mcmsadminbar a img:hover {
+	outline: none;
+	border: none;
+	text-decoration: none;
+	background: none;
+}
+
+#mcmsadminbar a:focus,
+#mcmsadminbar a:active,
+#mcmsadminbar input[type="text"],
+#mcmsadminbar input[type="password"],
+#mcmsadminbar input[type="number"],
+#mcmsadminbar input[type="search"],
+#mcmsadminbar input[type="email"],
+#mcmsadminbar input[type="url"],
+#mcmsadminbar select,
+#mcmsadminbar textarea,
+#mcmsadminbar div {
+	box-shadow: none;
+	outline: none;
+}
+
+#mcmsadminbar {
+	direction: rtl;
+	color: #ccc;
+	font-size: 13px;
+	font-weight: 400;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	line-height: 32px;
+	height: 32px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	min-width: 600px; /* match the min-width of the body in mcms-admin.css */
+	z-index: 99999;
+	background: #23282d;
+}
+
+#mcmsadminbar .ab-sub-wrapper,
+#mcmsadminbar ul,
+#mcmsadminbar ul li {
+	background: none;
+	clear: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-indent: 0;
+	z-index: 99999;
+}
+
+#mcmsadminbar ul#mcms-admin-bar-root-default>li {
+	margin-left: 0;
+}
+
+#mcmsadminbar .quicklinks ul {
+	text-align: right;
+}
+
+#mcmsadminbar li {
+	float: right;
+}
+
+#mcmsadminbar .ab-empty-item {
+	outline: none;
+}
+
+#mcmsadminbar .quicklinks .ab-top-secondary > li {
+	float: left;
+}
+
+#mcmsadminbar .quicklinks a,
+#mcmsadminbar .quicklinks .ab-empty-item,
+#mcmsadminbar .shortlink-input {
+	height: 32px;
+	display: block;
+	padding: 0 10px;
+	margin: 0;
+}
+
+#mcmsadminbar .quicklinks > ul > li > a {
+	padding: 0 7px 0 8px;
+}
+
+#mcmsadminbar .menupop .ab-sub-wrapper,
+#mcmsadminbar .shortlink-input {
+	margin: 0;
+	padding: 0;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+	background: #32373c;
+	display: none;
+	position: absolute;
+	float: none;
+}
+
+#mcmsadminbar.ie7 .menupop .ab-sub-wrapper,
+#mcmsadminbar.ie7 .shortlink-input {
+	top: 32px;
+	right: 0;
+}
+
+#mcmsadminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+	min-width: 100%;
+}
+
+#mcmsadminbar .ab-top-secondary .menupop .ab-sub-wrapper {
+	left: 0;
+	right: auto;
+}
+
+#mcmsadminbar .ab-submenu {
+	padding: 6px 0;
+}
+
+#mcmsadminbar .selected .shortlink-input {
+	display: block;
+}
+
+#mcmsadminbar .quicklinks .menupop ul li {
+	float: none;
+}
+
+#mcmsadminbar .quicklinks .menupop ul li a strong {
+	font-weight: 600;
+}
+
+#mcmsadminbar .quicklinks .menupop ul li .ab-item,
+#mcmsadminbar .quicklinks .menupop ul li a strong,
+#mcmsadminbar .quicklinks .menupop.hover ul li .ab-item,
+#mcmsadminbar.nojs .quicklinks .menupop:hover ul li .ab-item,
+#mcmsadminbar .shortlink-input {
+	line-height: 26px;
+	height: 26px;
+	white-space: nowrap;
+	min-width: 140px;
+}
+
+#mcmsadminbar .shortlink-input {
+	width: 200px;
+}
+
+#mcmsadminbar.nojs li:hover > .ab-sub-wrapper,
+#mcmsadminbar li.hover > .ab-sub-wrapper {
+	display: block;
+}
+
+#mcmsadminbar .menupop li:hover > .ab-sub-wrapper,
+#mcmsadminbar .menupop li.hover > .ab-sub-wrapper {
+	margin-right: 100%;
+	margin-top: -32px;
+}
+
+#mcmsadminbar .ab-top-secondary .menupop li:hover > .ab-sub-wrapper,
+#mcmsadminbar .ab-top-secondary .menupop li.hover > .ab-sub-wrapper {
+	margin-right: 0;
+	right: inherit;
+	left: 100%;
+}
+
+#mcmsadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+#mcmsadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
+#mcmsadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#mcmsadminbar .ab-top-menu > li.hover > .ab-item {
+	background: #32373c;
+	color: lightcoral;
+}
+
+#mcmsadminbar:not(.mobile) > #mcms-toolbar li:hover span.ab-label,
+#mcmsadminbar > #mcms-toolbar li.hover span.ab-label,
+#mcmsadminbar:not(.mobile) > #mcms-toolbar a:focus span.ab-label {
+	color: lightcoral;
+}
+
+#mcmsadminbar > #mcms-toolbar > #mcms-admin-bar-root-default .ab-icon,
+#mcmsadminbar .ab-icon,
+#mcmsadminbar .ab-item:before {
+	position: relative;
+	float: right;
+	font: normal 20px/1 dashicons;
+	speak: none;
+	padding: 4px 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: none !important;
+	margin-left: 6px;
+}
+
+#mcmsadminbar .ab-icon:before,
+#mcmsadminbar .ab-item:before,
+#mcmsadminbar #adminbarsearch:before {
+	color: #a0a5aa;
+	color: rgba(240,245,250,0.6);
+}
+
+#mcmsadminbar .ab-icon:before,
+#mcmsadminbar .ab-item:before,
+#mcmsadminbar #adminbarsearch:before {
+	position: relative;
+	transition: all .1s ease-in-out;
+}
+
+#mcmsadminbar .ab-label {
+	display: inline-block;
+	height: 32px;
+}
+
+#mcmsadminbar .ab-submenu .ab-item {
+	color: #b4b9be;
+	color: rgba(240,245,250,0.7);
+}
+
+#mcmsadminbar .quicklinks .menupop ul li a,
+#mcmsadminbar .quicklinks .menupop ul li a strong,
+#mcmsadminbar .quicklinks .menupop.hover ul li a,
+#mcmsadminbar.nojs .quicklinks .menupop:hover ul li a {
+	color: #b4b9be;
+	color: rgba(240,245,250,0.7);
+}
+
+#mcmsadminbar .quicklinks .menupop ul li a:hover,
+#mcmsadminbar .quicklinks .menupop ul li a:focus,
+#mcmsadminbar .quicklinks .menupop ul li a:hover strong,
+#mcmsadminbar .quicklinks .menupop ul li a:focus strong,
+#mcmsadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a,
+#mcmsadminbar .quicklinks .menupop.hover ul li a:hover,
+#mcmsadminbar .quicklinks .menupop.hover ul li a:focus,
+#mcmsadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover,
+#mcmsadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus,
+#mcmsadminbar.nojs .quicklinks .menupop:hover ul li a:hover,
+#mcmsadminbar.nojs .quicklinks .menupop:hover ul li a:focus,
+#mcmsadminbar li:hover .ab-icon:before,
+#mcmsadminbar li:hover .ab-item:before,
+#mcmsadminbar li a:focus .ab-icon:before,
+#mcmsadminbar li .ab-item:focus:before,
+#mcmsadminbar li .ab-item:focus .ab-icon:before,
+#mcmsadminbar li.hover .ab-icon:before,
+#mcmsadminbar li.hover .ab-item:before,
+#mcmsadminbar li:hover #adminbarsearch:before,
+#mcmsadminbar li #adminbarsearch.adminbar-focused:before {
+	color: lightcoral;
+}
+
+#mcmsadminbar.mobile .quicklinks .ab-icon:before,
+#mcmsadminbar.mobile .quicklinks .ab-item:before {
+	color: #b4b9be;
+}
+
+#mcmsadminbar.mobile .quicklinks .hover .ab-icon:before,
+#mcmsadminbar.mobile .quicklinks .hover .ab-item:before {
+	color: lightcoral;
+}
+
+#mcmsadminbar .menupop .menupop > .ab-item:before,
+#mcmsadminbar .ab-top-secondary .menupop .menupop > .ab-item:before {
+	position: absolute;
+	font: normal 17px/1 dashicons;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#mcmsadminbar .menupop .menupop > .ab-item {
+	display: block;
+	padding-left: 2em;
+}
+
+#mcmsadminbar .menupop .menupop > .ab-item:before {
+	top: 1px;
+	left: 4px;
+	content: "\f141";
+	color: inherit;
+}
+
+#mcmsadminbar .ab-top-secondary .menupop .menupop > .ab-item {
+	padding-right: 2em;
+	padding-left: 1em;
+}
+
+#mcmsadminbar .ab-top-secondary .menupop .menupop > .ab-item:before {
+	top: 1px;
+	right: 6px;
+	content: "\f139";
+}
+
+#mcmsadminbar .quicklinks .menupop ul.ab-sub-secondary {
+	display: block;
+	position: relative;
+	left: auto;
+	margin: 0;
+	box-shadow: none;
+}
+
+#mcmsadminbar .quicklinks .menupop ul.ab-sub-secondary,
+#mcmsadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
+	background: #464b50;
+}
+
+#mcmsadminbar .quicklinks .menupop .ab-sub-secondary > li > a:hover,
+#mcmsadminbar .quicklinks .menupop .ab-sub-secondary > li .ab-item:focus a {
+	color: lightcoral;
+}
+
+#mcmsadminbar .quicklinks a span#ab-updates {
+	background: #eee;
+	color: #32373c;
+	display: inline;
+	padding: 2px 5px;
+	font-size: 10px;
+	font-weight: 600;
+	border-radius: 10px;
+}
+
+#mcmsadminbar .quicklinks a:hover span#ab-updates  {
+	background: #fff;
+	color: #000;
+}
+
+#mcmsadminbar .ab-top-secondary {
+	float: left;
+}
+
+#mcmsadminbar ul li:last-child,
+#mcmsadminbar ul li:last-child .ab-item {
+	box-shadow: none;
+}
+
+/**
+ * My Account
+ */
+#mcms-admin-bar-my-account > ul {
+	min-width: 198px;
+}
+
+#mcms-admin-bar-my-account > .ab-item:before {
+	content: "\f110";
+	top: 2px;
+	float: left;
+	margin-right: 6px;
+	margin-left: 0;
+}
+
+#mcms-admin-bar-my-account.with-avatar > .ab-item:before {
+	display: none;
+	content: none;
+}
+
+#mcms-admin-bar-my-account.with-avatar > ul {
+	min-width: 270px;
+}
+
+#mcmsadminbar.ie8 #mcms-admin-bar-my-account.with-avatar .ab-item {
+	white-space: nowrap;
+}
+
+#mcmsadminbar #mcms-admin-bar-user-actions > li {
+	margin-right: 16px;
+	margin-left: 16px;
+}
+
+#mcmsadminbar #mcms-admin-bar-user-actions.ab-submenu {
+	padding: 6px 0 12px;
+}
+
+#mcmsadminbar #mcms-admin-bar-my-account.with-avatar #mcms-admin-bar-user-actions > li {
+	margin-right: 88px;
+}
+
+#mcmsadminbar #mcms-admin-bar-user-info {
+	margin-top: 6px;
+	margin-bottom: 15px;
+	height: auto;
+	background: none;
+}
+
+#mcms-admin-bar-user-info .avatar {
+	position: absolute;
+	right: -72px;
+	top: 4px;
+	width: 64px;
+	height: 64px;
+}
+
+#mcmsadminbar #mcms-admin-bar-user-info a {
+	background: none;
+	height: auto;
+}
+
+#mcmsadminbar #mcms-admin-bar-user-info span {
+	background: none;
+	padding: 0;
+	height: 18px;
+}
+
+#mcmsadminbar #mcms-admin-bar-user-info .display-name,
+#mcmsadminbar #mcms-admin-bar-user-info .username {
+	display: block;
+}
+
+#mcmsadminbar #mcms-admin-bar-user-info .username {
+	color: #a0a5aa;
+	font-size: 11px;
+}
+
+#mcmsadminbar #mcms-admin-bar-my-account.with-avatar > .ab-empty-item img,
+#mcmsadminbar #mcms-admin-bar-my-account.with-avatar > a img {
+	width: auto;
+	height: 16px;
+	padding: 0;
+	border: 1px solid #82878c;
+	background: #eee;
+	line-height: 24px;
+	vertical-align: middle;
+	margin: -4px 6px 0 0;
+	float: none;
+	display: inline;
+}
+
+#mcmsadminbar.ie8 #mcms-admin-bar-my-account.with-avatar > .ab-empty-item img,
+#mcmsadminbar.ie8 #mcms-admin-bar-my-account.with-avatar > a img {
+	width: auto;
+}
+
+/**
+ * MCMS Logo
+ */
+#mcmsadminbar #mcms-admin-bar-mcms-logo > .ab-item .ab-icon {
+	width: 15px;
+	height: 20px;
+	margin-left: 0;
+	padding: 6px 0 5px;
+}
+
+#mcmsadminbar #mcms-admin-bar-mcms-logo > .ab-item {
+	padding: 0 7px;
+}
+
+#mcmsadminbar #mcms-admin-bar-mcms-logo > .ab-item .ab-icon:before {
+	content: "\f120";
+	top: 2px;
+}
+
+/*
+ * My Sites & Site Title
+ */
+#mcmsadminbar .quicklinks li .blavatar {
+	float: right;
+	font: normal 16px/1 dashicons !important;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #eee;
+}
+
+#mcmsadminbar .quicklinks li a:hover .blavatar,
+#mcmsadminbar .quicklinks li a:focus .blavatar,
+#mcmsadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a .blavatar {
+	color: lightcoral;
+}
+
+#mcmsadminbar .quicklinks li .blavatar:before {
+	content: "\f120";
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	margin: 6px -2px 0 8px;
+}
+
+#mcmsadminbar #mcms-admin-bar-appearance {
+	margin-top: -12px;
+}
+
+#mcmsadminbar #mcms-admin-bar-my-sites > .ab-item:before,
+#mcmsadminbar #mcms-admin-bar-site-name > .ab-item:before {
+	content: "\f541";
+	top: 2px;
+}
+
+#mcmsadminbar #mcms-admin-bar-customize > .ab-item:before {
+	content: "\f540";
+	top: 2px;
+}
+
+
+#mcmsadminbar #mcms-admin-bar-edit > .ab-item:before {
+	content: "\f464";
+	top: 2px;
+}
+
+#mcmsadminbar #mcms-admin-bar-site-name > .ab-item:before {
+	content: "\f226";
+}
+
+.mcms-admin #mcmsadminbar #mcms-admin-bar-site-name > .ab-item:before {
+	content: "\f102";
+}
+
+
+
+/**
+ * Comments
+ */
+#mcmsadminbar #mcms-admin-bar-comments .ab-icon {
+	margin-left: 6px;
+}
+
+#mcmsadminbar #mcms-admin-bar-comments .ab-icon:before {
+	content: "\f101";
+	top: 3px;
+}
+
+#mcmsadminbar #mcms-admin-bar-comments .count-0 {
+	opacity: .5;
+}
+
+/**
+ * New Content
+ */
+#mcmsadminbar #mcms-admin-bar-new-content .ab-icon:before {
+	content: "\f132";
+	top: 4px;
+}
+
+/**
+ * Updates
+ */
+#mcmsadminbar #mcms-admin-bar-updates .ab-icon:before {
+	content: "\f463";
+	top: 2px;
+}
+
+/**
+ * Search
+ */
+#mcmsadminbar.ie8 #mcms-admin-bar-search {
+	display: block;
+	min-width: 32px;
+}
+#mcmsadminbar #mcms-admin-bar-search .ab-item {
+	padding: 0;
+	background: transparent;
+}
+
+#mcmsadminbar #adminbarsearch {
+	position: relative;
+	height: 32px;
+	padding: 0 2px;
+	z-index: 1;
+}
+
+#mcmsadminbar #adminbarsearch:before {
+	position: absolute;
+	top: 6px;
+	right: 5px;
+	z-index: 20;
+	font: normal 20px/1 dashicons !important;
+	content: "\f179";
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* The admin bar search field needs to reset many styles that might be inherited from the active MySkin CSS. See ticket #40313. */
+#mcmsadminbar > #mcms-toolbar > #mcms-admin-bar-top-secondary > #mcms-admin-bar-search #adminbarsearch input.adminbar-input {
+	display: inline-block;
+	float: none;
+	position: relative;
+	z-index: 30;
+	font-size: 13px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	line-height: 24px;
+	text-indent: 0;
+	height: 24px;
+	width: 24px;
+	max-width: none;
+	padding: 0 24px 0 3px;
+	margin: 0;
+	color: #ccc;
+	background-color: rgba( 255, 255, 255, 0 );
+	border: none;
+	outline: none;
+	cursor: pointer;
+	box-shadow: none;
+	box-sizing: border-box;
+	transition-duration: 400ms;
+	transition-property: width, background;
+	transition-timing-function: ease;
+}
+
+#mcmsadminbar > #mcms-toolbar > #mcms-admin-bar-top-secondary > #mcms-admin-bar-search #adminbarsearch input.adminbar-input:focus {
+	z-index: 10;
+	color: #000;
+	width: 200px;
+	background-color: rgba( 255, 255, 255, 0.9 );
+	cursor: text;
+	border: 0;
+}
+
+#mcmsadminbar.ie7 > #mcms-toolbar > #mcms-admin-bar-top-secondary > #mcms-admin-bar-search #adminbarsearch input.adminbar-input {
+	margin-top: 3px;
+	width: 120px;
+}
+
+#mcmsadminbar.ie8 > #mcms-toolbar > #mcms-admin-bar-top-secondary > #mcms-admin-bar-search #adminbarsearch input.adminbar-input {
+	/* IE8 z-index bug with transparent / empty elements - fill in with an encoded transparent GIF */
+	background: transparent 100% 0 repeat scroll url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBR‌​AA7");
+}
+
+/* IE8 doesn't redraw the pseudo elements unless you make a change to the content */
+#mcmsadminbar.ie8 #adminbarsearch.adminbar-focused:before {
+	content: "\f179 "; /* extra space */
+}
+
+#mcmsadminbar.ie8 > #mcms-toolbar > #mcms-admin-bar-top-secondary > #mcms-admin-bar-search #adminbarsearch input.adminbar-input:focus {
+	background: #fff;
+	z-index: -1;
+}
+
+#mcmsadminbar #adminbarsearch .adminbar-button {
+	display: none;
+}
+
+/**
+ * Customize support classes
+ */
+.no-customize-support .hide-if-no-customize,
+.customize-support .hide-if-customize,
+.no-customize-support #mcmsadminbar .hide-if-no-customize,
+.no-customize-support.mcms-core-ui .hide-if-no-customize,
+.no-customize-support .mcms-core-ui .hide-if-no-customize,
+.customize-support #mcmsadminbar .hide-if-customize,
+.customize-support.mcms-core-ui .hide-if-customize,
+.customize-support .mcms-core-ui .hide-if-customize {
+	display: none;
+}
+
+/* Skip link */
+#mcmsadminbar .screen-reader-text,
+#mcmsadminbar .screen-reader-text span {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+#mcmsadminbar .screen-reader-shortcut {
+	position: absolute;
+	top: -1000em;
+}
+
+#mcmsadminbar .screen-reader-shortcut:focus {
+	right: 6px;
+	top: 7px;
+	height: auto;
+	width: auto;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 15px 23px 14px;
+	background: ##ffffff;
+	color: #000000;
+	z-index: 100000;
+	line-height: normal;
+	text-decoration: none;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+}
+
+/**
+ * IE 6-targeted rules
+ */
+* html #mcmsadminbar {
+	overflow: hidden;
+	position: absolute;
+}
+
+* html #mcmsadminbar .quicklinks ul li a {
+	float: right;
+}
+
+* html #mcmsadminbar .menupop a span {
+	background-image: none;
+}
+
+/* No @font-face support */
+.no-font-face #mcmsadminbar ul.ab-top-menu > li > a.ab-item {
+	display: block;
+	width: 45px;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 3px;
+}
+
+.no-font-face #mcmsadminbar #mcms-admin-bar-my-sites > .ab-item,
+.no-font-face #mcmsadminbar #mcms-admin-bar-site-name > .ab-item,
+.no-font-face #mcmsadminbar #mcms-admin-bar-edit > .ab-item {
+	text-indent: 0;
+}
+
+.no-font-face #mcmsadminbar .ab-icon,
+.no-font-face #mcmsadminbar .ab-icon:before,
+.no-font-face #mcmsadminbar a.ab-item:before,
+.no-font-face #mcmsadminbar #mcms-admin-bar-mcms-logo > .ab-item {
+	display: none !important;
+}
+
+.no-font-face #mcmsadminbar ul.ab-top-menu > li > a > span.ab-label {
+	display: inline;
+}
+
+.no-font-face #mcmsadminbar #mcms-admin-bar-menu-toggle span.ab-icon {
+	display: inline !important;
+}
+
+.no-font-face #mcmsadminbar #mcms-admin-bar-menu-toggle span.ab-icon:before {
+	content: "Menu";
+	font: 14px/45px sans-serif !important;
+	display: inline-block !important;
+	color: #fff;
+}
+
+.no-font-face #mcmsadminbar #mcms-admin-bar-site-name a.ab-item {
+	color: #fff;
+}
+/* End no @font-face */
+
+@media screen and ( max-width: 782px ) {
+	/* Toolbar Touchification*/
+	html #mcmsadminbar {
+		height: 46px;
+		min-width: 300px;
+	}
+
+	#mcmsadminbar * {
+		font-size: 14px;
+		font-weight: 400;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		line-height: 32px;
+	}
+
+	#mcmsadminbar .quicklinks > ul > li > a,
+	#mcmsadminbar .quicklinks .ab-empty-item {
+		padding: 0;
+		height: 46px;
+		line-height: 46px;
+		width: auto;
+	}
+
+	#mcmsadminbar .ab-icon {
+		font: 40px/1 dashicons !important;
+		margin: 0;
+		padding: 0;
+		width: 52px;
+		height: 46px;
+		text-align: center;
+	}
+
+	#mcmsadminbar .ab-icon:before {
+		text-align: center;
+	}
+
+	#mcmsadminbar .ab-submenu {
+		padding: 0;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-site-name a.ab-item,
+	#mcmsadminbar #mcms-admin-bar-my-sites a.ab-item,
+	#mcmsadminbar #mcms-admin-bar-my-account a.ab-item {
+		text-overflow: clip;
+	}
+
+	#mcmsadminbar .ab-label {
+		display: none;
+	}
+
+	#mcmsadminbar .menupop li:hover > .ab-sub-wrapper,
+	#mcmsadminbar .menupop li.hover > .ab-sub-wrapper {
+		margin-top: -46px;
+	}
+
+	#mcmsadminbar .ab-top-menu .menupop .ab-sub-wrapper .menupop > .ab-item {
+		padding-left: 30px;
+	}
+
+	#mcmsadminbar .menupop .menupop > .ab-item:before {
+		top: 10px;
+		left: 6px;
+	}
+
+	#mcmsadminbar .ab-top-menu > .menupop > .ab-sub-wrapper .ab-item {
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+
+	#mcmsadminbar .ab-top-menu > .menupop > .ab-sub-wrapper a:empty {
+		display: none;
+	}
+
+	/* MCMS logo */
+	#mcmsadminbar #mcms-admin-bar-mcms-logo > .ab-item {
+		padding: 0;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-mcms-logo > .ab-item .ab-icon {
+		padding: 0;
+		width: 52px;
+		height: 46px;
+		text-align: center;
+		vertical-align: top;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-mcms-logo > .ab-item .ab-icon:before {
+		font: 28px/1 dashicons !important;
+		top: -3px;
+	}
+
+	#mcmsadminbar .ab-icon,
+	#mcmsadminbar .ab-item:before {
+		padding: 0;
+	}
+
+	/* My Sites and "Site Title" menu */
+	#mcmsadminbar #mcms-admin-bar-my-sites > .ab-item,
+	#mcmsadminbar #mcms-admin-bar-site-name > .ab-item,
+	#mcmsadminbar #mcms-admin-bar-customize > .ab-item,
+	#mcmsadminbar #mcms-admin-bar-edit > .ab-item,
+	#mcmsadminbar #mcms-admin-bar-my-account > .ab-item {
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 52px;
+		padding: 0;
+		color: #a0a5aa; /* @todo not needed? this text is hidden */
+		position: relative;
+	}
+
+	#mcmsadminbar > #mcms-toolbar > #mcms-admin-bar-root-default .ab-icon,
+	#mcmsadminbar .ab-icon,
+	#mcmsadminbar .ab-item:before {
+		padding: 0;
+		margin-left: 0;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-edit > .ab-item:before,
+	#mcmsadminbar #mcms-admin-bar-my-sites > .ab-item:before,
+	#mcmsadminbar #mcms-admin-bar-site-name > .ab-item:before,
+	#mcmsadminbar #mcms-admin-bar-customize > .ab-item:before,
+	#mcmsadminbar #mcms-admin-bar-my-account > .ab-item:before {
+		display: block;
+		text-indent: 0;
+		font: normal 32px/1 dashicons;
+		speak: none;
+		top: 7px;
+		width: 52px;
+		text-align: center;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-appearance {
+		margin-top: 0;
+	}
+
+	#mcmsadminbar .quicklinks li .blavatar:before {
+		display: none;
+	}
+
+	/* Search */
+	#mcmsadminbar #mcms-admin-bar-search {
+		display: none;
+	}
+
+	/* New Content */
+	#mcmsadminbar #mcms-admin-bar-new-content .ab-icon:before {
+		top: 0;
+		line-height: 53px;
+		height: 46px !important;
+		text-align: center;
+		width: 52px;
+		display: block;
+	}
+
+	/* Updates */
+	#mcmsadminbar #mcms-admin-bar-updates {
+		text-align: center;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-updates .ab-icon:before {
+		top: 3px;
+	}
+
+	/* Comments */
+	#mcmsadminbar #mcms-admin-bar-comments .ab-icon {
+		margin: 0;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-comments .ab-icon:before {
+		display: block;
+		font-size: 34px;
+		height: 46px;
+		line-height: 47px;
+		top: 0;
+	}
+
+	/* My Account */
+	#mcmsadminbar #mcms-admin-bar-my-account > a {
+		position: relative;
+		white-space: nowrap;
+		text-indent: 150%; /* More than 100% indention is needed since this element has padding */
+		width: 28px;
+		padding: 0 10px;
+		overflow: hidden; /* Prevent link text from forcing horizontal scrolling on mobile */
+	}
+
+	#mcmsadminbar .quicklinks li#mcms-admin-bar-my-account.with-avatar > a img {
+		position: absolute;
+		top: 13px;
+		left: 10px;
+		width: 26px;
+		height: 26px;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-user-actions.ab-submenu {
+		padding: 0;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-user-actions.ab-submenu img.avatar {
+		display: none;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-my-account.with-avatar #mcms-admin-bar-user-actions > li {
+		margin: 0;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-user-info .display-name {
+		height: auto;
+		font-size: 16px;
+		line-height: 24px;
+		color: #eee;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-user-info a {
+		padding-top: 4px;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-user-info .username {
+		line-height: 0.8 !important;
+		margin-bottom: -2px;
+	}
+
+	/* Show only default top level items */
+	#mcms-toolbar > ul > li {
+		display: none;
+	}
+
+	#mcmsadminbar li#mcms-admin-bar-menu-toggle,
+	#mcmsadminbar li#mcms-admin-bar-mcms-logo,
+	#mcmsadminbar li#mcms-admin-bar-my-sites,
+	#mcmsadminbar li#mcms-admin-bar-updates,
+	#mcmsadminbar li#mcms-admin-bar-site-name,
+	#mcmsadminbar li#mcms-admin-bar-customize,
+	#mcmsadminbar li#mcms-admin-bar-new-content,
+	#mcmsadminbar li#mcms-admin-bar-edit,
+	#mcmsadminbar li#mcms-admin-bar-comments,
+	#mcmsadminbar li#mcms-admin-bar-my-account {
+		display: block;
+	}
+
+	/* Allow dropdown list items to appear normally */
+	#mcmsadminbar li:hover ul li,
+	#mcmsadminbar li.hover ul li,
+	#mcmsadminbar li:hover ul li:hover ul li {
+		display: list-item;
+	}
+
+	/* Override default min-width so dropdown lists aren't stretched
+		to 100% viewport width at responsive sizes. */
+	#mcmsadminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+		min-width: -webkit-fit-content;
+		min-width: -moz-fit-content;
+		min-width: fit-content;
+	}
+
+	#mcmsadminbar ul#mcms-admin-bar-root-default > li {
+		margin-left: 0;
+	}
+
+	/* Experimental fix for touch toolbar dropdown positioning */
+	#mcmsadminbar .ab-top-menu,
+	#mcmsadminbar .ab-top-secondary,
+	#mcmsadminbar #mcms-admin-bar-mcms-logo,
+	#mcmsadminbar #mcms-admin-bar-my-sites,
+	#mcmsadminbar #mcms-admin-bar-site-name,
+	#mcmsadminbar #mcms-admin-bar-updates,
+	#mcmsadminbar #mcms-admin-bar-comments,
+	#mcmsadminbar #mcms-admin-bar-new-content,
+	#mcmsadminbar #mcms-admin-bar-edit,
+	#mcmsadminbar #mcms-admin-bar-my-account {
+		position: static;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-my-account {
+		float: left;
+	}
+
+	.network-admin #mcmsadminbar ul#mcms-admin-bar-top-secondary > li#mcms-admin-bar-my-account {
+		margin-left: 0;
+	}
+
+	/* Realign arrows on taller responsive submenus */
+
+	#mcmsadminbar .ab-top-secondary .menupop .menupop > .ab-item:before {
+		top: 10px;
+		right: 0;
+	}
+}
+
+/* Smartphone */
+@media screen and (max-width: 600px) {
+	#mcmsadminbar {
+		position: absolute;
+	}
+
+	#mcms-responsive-overlay {
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 400;
+	}
+
+	#mcmsadminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+		width: 100%;
+		right: 0;
+	}
+
+	#mcmsadminbar .menupop .menupop > .ab-item:before {
+		display: none;
+	}
+
+	#mcmsadminbar #mcms-admin-bar-mcms-logo.menupop .ab-sub-wrapper {
+		margin-right: 0;
+	}
+
+	#mcmsadminbar .ab-top-menu > .menupop li > .ab-sub-wrapper {
+		margin: 0;
+		width: 100%;
+		top: auto;
+		right: auto;
+		position: relative;
+	}
+
+	#mcmsadminbar .ab-top-menu > .menupop li > .ab-sub-wrapper .ab-item {
+		font-size: 16px;
+		padding: 6px 30px 19px 15px;
+	}
+
+	#mcmsadminbar li:hover ul li ul li {
+		display: list-item;
+	}
+
+	#mcmsadminbar li#mcms-admin-bar-mcms-logo,
+	#mcmsadminbar li#mcms-admin-bar-updates {
+		display: none;
+	}
+
+	/* Make submenus full-width at this size */
+
+	#mcmsadminbar .ab-top-menu > .menupop li > .ab-sub-wrapper {
+		position: static;
+		box-shadow: none;
+	}
+}
+
+/* Very narrow screens */
+@media screen and (max-width: 400px) {
+	#mcmsadminbar li#mcms-admin-bar-comments {
+		display: none;
+	}
+}

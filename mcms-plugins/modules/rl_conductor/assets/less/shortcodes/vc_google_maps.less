@@ -1,0 +1,30 @@
+/* Google maps
+---------------------------------------------------------- */
+.mcmsb_gmaps_widget {
+  .mcmsb_wrapper {
+    background-color: @vc_google_maps_bg;
+    padding: 5px;
+  }
+  .mcmsb_map_wraper {
+    iframe {
+      margin-bottom: 0;
+      padding: 0;
+      display: block;
+      width: 100%;
+      border: none;
+    }
+  }
+  &.vc_map_responsive {
+    .mcmsb_map_wraper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+      }
+    }
+  }
+}
