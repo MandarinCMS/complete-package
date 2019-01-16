@@ -9,7 +9,7 @@ Thank you so much for making great every day.
 # Setup & Installation of MandarinCMS
   1.	Download .zip from Github/JiiSaaduddin
   2.	Run in your browser. 
-  1.	Open & Edit the file mcms-database.php and save it.
+  1.	Open & Edit the file database-settings.php and save it.
   2.	Run in your browser again.
   3.	If you did not enter a password, note the password given to you. If you did not provide a username, it will be admin.
   4.	The installer should then send you to the login page. Sign in with the username and password you chose during the installation. If a password was generated for you, you can then click on “Profile” to change the password.
