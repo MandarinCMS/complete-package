@@ -2,7 +2,9 @@
 # PHP Web Publishing Software
 
 #In The First Place
-MandarinCMS is the most valuable project in my life. It something mix together we created that I’m proud to be part of it. Years ago have gone into this project “MandarinCMS”, and we’re dedicated to making great every day. 
+MandarinCMS is the most important project for me. It something mix together we created that I’m proud to be part of it. Many Years ago have gone into “MandarinCMS”, and we’re dedicated to our big brother. A MANILA Times correspondent "Moh Saaduddin" died in a motorcycle accident on Monday on his way home to Kidapawan City, his father-in-law said.. 
+
+We're making great everyday for this project. 
 Thank you so much for making great every day.
 — Jii Saaduddin
 
