@@ -1,8 +1,8 @@
 # Complete Package of MandarinCMS
 # PHP Web Publishing Software
 
-#In The First Place
-MandarinCMS is the most important project for me. It something mix together we created that I’m proud to be part of it. Many Years ago have gone into “MandarinCMS”, and we’re dedicated to our big brother. A MANILA Times correspondent "Moh Saaduddin" died in a motorcycle accident on Monday on his way home to Kidapawan City, his father-in-law said.. 
+# In The First Place
+MandarinCMS is the most important project in my life. It something mix together we created that I’m proud to be part of it. Many Years ago have gone into “MandarinCMS” since 2013 was started, it was discontinued on November 2017, and we’re dedicated to our big brother. A MANILA Times correspondent "Moh Saaduddin" died in a motorcycle accident on Monday on his way home to Kidapawan City, his father-in-law said.. 
 
 We're making great everyday for this project. 
 Thank you so much for making great every day.
